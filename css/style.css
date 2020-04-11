@@ -1,11 +1,7 @@
 html, body {
-  background-image: url("background.png");
   font-family: 'Nunito', sans-serif;
   height: 100%;
   margin: 0px;
-}
-body {
-  background-image: url("background.png");
 }
 div.head {
   background-color: #ffffff;
@@ -20,8 +16,8 @@ div.side {
   margin-top: 5%;
 }
 div.profilepic {
-  height:400px;
-  width:400px;
+  height:350px;
+  width:350px;
   border:2px solid #000000;
   margin-top: 20px;
 }
