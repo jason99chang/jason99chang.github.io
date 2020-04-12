@@ -2,6 +2,8 @@ html, body{
   font-family: 'Muli', sans-serif;
   scroll-behavior: smooth;
   position: relative;
+  background-size: 2550px 1050px;
+  background-position: no-repeat;
 }
 
 .intro {
@@ -45,7 +47,7 @@ img {
 
 .centerme{
   text-align: center;
-  margin:2% 0;
+  margin:% 0;
 }
 
 .bodycards {
@@ -78,4 +80,23 @@ img {
 
 #text {
   margin:4% 5%;
+}
+
+.intropage{
+  margin-top: -16px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
