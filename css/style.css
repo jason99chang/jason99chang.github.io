@@ -10,7 +10,7 @@ html, body{
   font-size: 24px;
   text-align: center;
   margin-top:8%;
-  margin-bottom: 1%;
+  margin-bottom: 25%;
 }
 
 .profilepic {
@@ -47,7 +47,7 @@ img {
 
 .centerme{
   text-align: center;
-  margin:% 0;
+  margin: 0;
 }
 
 .bodycards {
@@ -87,6 +87,7 @@ img {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
+  height: 1050px;
 }
 
 .lastelement {
