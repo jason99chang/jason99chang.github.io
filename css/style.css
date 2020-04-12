@@ -35,13 +35,29 @@ img {
 }
 
 #middlebutton {
-  margin-left: 47.5%;
   margin-bottom: 20%
 }
 
 .bodytext {
     margin: 2% 15%;
 }
+
+.centerme{
+  text-align: center;
+}
+
+.bodycards {
+  margin: 0 0%;
+}
+
+#centercontact{
+  margin: 0 45%;
+}
 #scroll1 {
 
+}
+.center {
+  text-align: center;
+  font-weight:300;
+  font-size:62px;
 }
