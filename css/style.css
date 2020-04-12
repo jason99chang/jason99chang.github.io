@@ -1,6 +1,7 @@
 html, body{
   font-family: 'Muli', sans-serif;
   scroll-behavior: smooth;
+  position: relative;
 }
 
 .intro {
@@ -39,16 +40,16 @@ img {
 }
 
 .bodytext {
-    margin: 2% 15%;
+    margin: 2% 25%;
 }
 
 .centerme{
   text-align: center;
-  margin:5% 0;
+  margin:2% 0;
 }
 
 .bodycards {
-  margin: 0 0%;
+  margin: 0 5%;
 }
 
 #centercontact{
@@ -64,11 +65,17 @@ img {
 }
 .feedtitle{
   font-weight: 300;
+  margin:3% 0;
+  text-align: center;
 }
 .feed {
-  margin:2% 35%;
+  margin:2% 25%;
 }
 
 #spacer {
   margin: 5% 0;
+}
+
+#text {
+  margin:4% 5%;
 }
