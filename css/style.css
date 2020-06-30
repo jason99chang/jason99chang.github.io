@@ -90,6 +90,7 @@ img {
   height: 1050px;
 }
 
+
 .lastelement {
   margin-bottom: 5%;
 }
@@ -105,3 +106,18 @@ img {
 		background-position: 0% 50%;
 	}
 }
+
+/*.parallax {
+  /* The image used */
+/*  background-image:url(../img/tokyo.jpg);
+
+  /* Set a specific height */
+/*  margin-top:-16px;
+/*  height: 1050px;
+
+  /* Create the parallax scrolling effect */
+/*  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}  */
