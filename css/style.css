@@ -1,10 +1,21 @@
-html, body{
+body{
   font-family: 'Muli', sans-serif;
   scroll-behavior: smooth;
   position: relative;
   background-size: 2550px 1050px;
   background-position: no-repeat;
 }
+
+#backgroundimg{
+  background-image: url(/tokyo.jpg);
+  width: 100%;
+  height:100%;
+  background-repeat: no-repeat;
+  margin-top: -16px;
+	background-size: 100% 100%;
+  height: 940px;
+}
+
 
 .intro {
   font-size: 24px;
@@ -57,9 +68,7 @@ img {
 #centercontact{
   margin: 0 45%;
 }
-#scroll1 {
 
-}
 .center {
   text-align: center;
   font-weight:300;
@@ -107,17 +116,17 @@ img {
 	}
 }
 
-/*.parallax {
+.parallax {
   /* The image used */
-/*  background-image:url(../img/tokyo.jpg);
+  background-image:url(tokyo.jpg);
 
   /* Set a specific height */
-/*  margin-top:-16px;
-/*  height: 1050px;
+  margin-top:-16px;
+  height: 1050px;
 
   /* Create the parallax scrolling effect */
-/*  background-attachment: fixed;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}  */
+}  
