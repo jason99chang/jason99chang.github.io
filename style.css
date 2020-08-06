@@ -156,3 +156,15 @@ border: solid white;
     color: #ffffff;
     font-weight: 600;
 }
+
+.comment {
+    color:#EF8354; 
+    font-size:300%; 
+    margin-top: 22.5%;
+    margin-left: 20%;
+}
+
+.header {
+    color: #BFC0C0;
+    margin-top: 100px;
+}
