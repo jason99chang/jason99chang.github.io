@@ -35,29 +35,41 @@ nav {
 }
 
 .navlinks a {
-    color: #BFC0C0;
+    color:#BFC0C0;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
+    background-color: #282b3b;
+    z-index: 4000;
+    transition: background-color 0.4s linear;
+    border-radius: 15px;
+    opacity: 0.7;
+    padding: 10px;
 }
 
-.navlinks li::before { 
-    content: ""; 
-    width: 0px; 
-    height: 10px; 
-    background: white; 
-    position: absolute; 
-    top: 100%; 
-    left: 0; 
-    transition: .5s; 
-    z-index: 3000;
-} 
+.navlinks a:hover {
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #4F5D75;
+    z-index: 4000;
+    transition: background-color 0.4s linear;
+    border-radius: 15px;
+    opacity: 0.7;
+    padding: 10px;
+    align-items: center;
+}
 
-.navlinks li:hover::before { 
-    width: 50%; 
-    transform: translateX(100%);
-} 
+.biotext {
+    margin-left:30%; 
+    font-size: 150%;
+    opacity: .8;
+    color:#BFC0C0;
+    margin-right:25%;
+    font-style: italic;
+}
 
 @media screen and (max-width: 1024px){
     .navlinks {
@@ -89,4 +101,5 @@ nav {
     margin-top: 30px;
     opacity: 0.8;
     color: #ffffff;
+    font-weight: 600;
 }
