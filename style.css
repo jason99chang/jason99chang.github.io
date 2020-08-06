@@ -144,6 +144,9 @@ border: solid white;
     left:0px;
     z-index:1000;
     float:top;
+    display:flex;
+    flex-direction: row;
+
 }
 
 #pageblock{
@@ -161,10 +164,20 @@ border: solid white;
     color:#EF8354; 
     font-size:300%; 
     margin-top: 22.5%;
-    margin-left: 20%;
+    width:50%;
+    text-align: center;
 }
 
 .header {
     color: #BFC0C0;
-    margin-top: 100px;
+}
+
+.aboutme {
+    color: #BFC0C0;
+    float: right;
+    margin-right: 0;
+    font-size: 200%;
+    width:50%;
+    margin-top: 17%;
+    text-align: left;
 }
