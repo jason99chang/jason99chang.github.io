@@ -184,7 +184,7 @@ img {
 .comment {
     color:#EF8354; 
     font-size:300%; 
-    margin-top: 22.5%;
+    margin-top: 25%;
     width:50%;
     text-align: center;
 }
@@ -194,20 +194,20 @@ img {
 }
 
 .aboutme {
-    color: #BFC0C0;
+    background-color: #BFC0C0;
     float: right;
     margin-right: 15%;
-    font-size: 145%;
+    font-size: 105%;
     width:50%;
-    margin-top: 15%;
-    margin-bottom: 18%;
+    margin-top: 20%;
+    margin-bottom: 16%;
     text-align: left;
     border-style: solid;
     border-size: 4px;
     border-color: #EF8354;
-    border-radius: 8px;
+    border-radius: 5px;
     padding: 15px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Mono', monospace;
     letter-spacing: 1px;
 }
 
