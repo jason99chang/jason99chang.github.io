@@ -168,6 +168,8 @@ img {
     z-index:1000;
     float:top;
     display:flex;
+    border: solid white;
+    border-width: 0px 1px 1px 0px;
 }
 
 #pageblock{
@@ -194,19 +196,37 @@ img {
 }
 
 .aboutme {
-    background-color: #BFC0C0;
+    background-color: #FFFFFF;
     float: right;
     margin-right: 15%;
     font-size: 105%;
     width:50%;
     margin-top: 20%;
-    margin-bottom: 16%;
+    margin-bottom: 17%;
     text-align: left;
     border-style: solid;
     border-size: 4px;
     border-color: #EF8354;
-    border-radius: 5px;
-    padding: 15px;
+    border-radius: 15px;
+    padding: 20px;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 1px;
+}
+
+.projects {
+    background-color: #FFFFFF;
+    float: right;
+    margin-right: 5%;
+    font-size: 105%;
+    width:30%;
+    margin-top: 20%;
+    margin-bottom: 17%;
+    text-align: left;
+    border-style: solid;
+    border-size: 4px;
+    border-color: #EF8354;
+    border-radius: 15px;
+    padding: 20px;
     font-family: 'Roboto Mono', monospace;
     letter-spacing: 1px;
 }
