@@ -198,17 +198,17 @@ border: solid white;
     background-color: #FFFFFF;
     float: right;
     margin-right: 15%;
-    font-size: 105%;
+    font-size: 140%;
     width:50%;
     margin-top: 20%;
-    margin-bottom: 17%;
+    margin-bottom: 15%;
     text-align: left;
     border-style: solid;
     border-size: 4px;
     border-color: #EF8354;
-    border-radius: 15px;
+    border-radius: 5px;
     padding: 20px;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
 }
 
@@ -216,17 +216,17 @@ border: solid white;
     background-color: #FFFFFF;
     float: right;
     margin-right: 5%;
-    font-size: 105%;
+    font-size: 140%;
     width:30%;
     margin-top: 20%;
-    margin-bottom: 17%;
+    margin-bottom: 16%;
     text-align: left;
     border-style: solid;
     border-size: 4px;
     border-color: #EF8354;
-    border-radius: 15px;
+    border-radius: 5px;
     padding: 20px;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
 }
 
