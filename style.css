@@ -6,7 +6,12 @@ html{
     text-decoration: none; 
     color: #757575;
 }
-
+.name {
+    font-family: Merriweather; 
+    font-weight: 500; 
+    padding-top: 20%; 
+    font-size: 250%;
+}
 .icon:hover{
     color:black;    
 }
@@ -20,9 +25,10 @@ html{
 }
 .menu {
     font-family: 'Courier New';
-    letter-spacing: 2px;
+    letter-spacing: 0.5px;
     font-size: 12px;
     text-decoration: none;
+    margin-top: -1%;
 }
 .bio {
     letter-spacing: -0.5px;
@@ -40,4 +46,11 @@ html{
     letter-spacing: -0.5px;
     font-family: 'Courier New';
     font-size:13px;
+}
+
+.footer {
+    margin-top: 21%;
+    text-align:center;
+    font-family: 'Caveat', cursive;
+    font-size: 100%;
 }
